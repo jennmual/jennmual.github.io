@@ -1,0 +1,10 @@
+title: Análisis de Temperaturas - Jenn Mual
+description: Visualización de datos climáticos semanales de Cali
+baseurl: "" 
+url: "https://jennmual.github.io"
+github_username: jennmual
+
+# Configuración de tema (si usas Jekyll)
+theme: minima
+plugins:
+  - jekyll-feed

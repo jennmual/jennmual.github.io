@@ -1,0 +1,17 @@
+jennmual.github.io/
+├── index.html              # Página principal
+├── about.html             # Página about (opcional)
+├── styles/
+│   └── style.css          # Estilos CSS
+├── scripts/
+│   └── script.js          # JavaScript (opcional)
+├── images/
+│   ├── logo.png           # Logo o imágenes
+│   └── graficas/          # Carpeta para gráficas
+├── data/
+│   └── datos.csv          # Datos o archivos de referencia
+└── assets/
+    ├── css/
+    │   └── custom.css     # Estilos adicionales
+    └── js/
+        └── custom.js      # Scripts adicionales
