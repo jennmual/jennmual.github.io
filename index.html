@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Análisis de Temperaturas - Jenn Mual</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">🌡️ Análisis Climático</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="#">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">Acerca de</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero bg-primary text-white py-5">
+        <div class="container text-center">
+            <h1 class="display-4">Análisis de Temperaturas en Cali</h1>
+            <p class="lead">Visualización de datos climáticos semanales</p>
+        </div>
+    </section>
+
+    <!-- Contenido Principal -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <h2>📊 Gráficas de Temperatura</h2>
+                    <p>Análisis de temperaturas medias, mínimas y máximas semanales.</p>
+                    
+                    <!-- Gráfica 1 -->
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h5 class="card-title">Evolución Semanal</h5>
+                            <img src="images/graficas/temperaturas_semana_año.png" 
+                                 alt="Gráfica de temperaturas semanales" class="img-fluid">
+                        </div>
+                    </div>
+
+                    <!-- Gráfica 2 -->
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h5 class="card-title">Distribución por Mes</h5>
+                            <img src="images/graficas/temperaturas_boxplot.png" 
+                                 alt="Boxplot de temperaturas" class="img-fluid">
+                        </div>
+                    </div>
+
+                    <!-- Datos -->
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">📁 Datos Disponibles</h5>
+                            <p>Descarga los datos utilizados en el análisis:</p>
+                            <a href="data/temperaturas_semanales.csv" class="btn btn-outline-primary" download>
+                                Descargar CSV
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container text-center">
+            <p>&copy; 2024 Jenn Mual - Análisis Climático</p>
+            <p>GitHub: <a href="https://github.com/jennmual" class="text-light">jennmual</a></p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="scripts/script.js"></script>
+</body>
+</html>
